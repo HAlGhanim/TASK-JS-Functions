@@ -65,4 +65,4 @@ function squareOrDouble(n) {
     return n ** 2; // or n * n
   }
 }
-console.log(squareOrDouble(6));
+console.log(squareOrDouble(5));
