@@ -6,9 +6,9 @@
 
 function printName(){
     let name = "Humoud"
-    console.log(name);
+    return name;
 }
-printName();
+console.log(printName());
 
 /**
  * Task 2:
@@ -23,9 +23,9 @@ function printAge(birth){
     let currentYear = 2023;
     age = currentYear - birth;
 
-    console.log(age);
+    return age;
 }
-printAge(1998);
+console.log(printAge(1998));
 
 /**
  * Task 3:
@@ -40,22 +40,22 @@ printAge(1998);
 
 function printHello(name, language){
     if (language === "en"){
-        console.log(`Hello ${name}`);
+        return `Hello ${name}`;
     }
     else if (language === "es"){
-        console.log(`Hola ${name}`);
+        return `Hola ${name}`;
     }
     else if (language === "fr"){
-        console.log(`Bonjour ${name}`);
+        return `Bonjour ${name}`;
     }
     else if (language === "tr"){
-        console.log(`Merhaba ${name}`);
+        return `Merhaba ${name}`;
     }
     else {
-        console.log("Invalid language");
+        return "Invalid language";
     }
 }
-printHello("Humoud", "fr");
+console.log(printHello("Humoud", "fr"));
 
 /**
  * Task 4:
@@ -65,10 +65,10 @@ printHello("Humoud", "fr");
  */
 function printMax(fNum, sNum){
     if (fNum > sNum){
-        console.log(fNum);
+        return fNum;
     }
     else {
-        console.log(sNum)
+        return sNum;
     }
 }
-printMax(2,3);
+console.log(printMax(2,3));
