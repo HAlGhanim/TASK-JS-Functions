@@ -44,9 +44,9 @@ function oddsSmallerThan(n) {
     count++;
    } 
   } 
-  console.log(count);
+  return count;
   }
-oddsSmallerThan(7);
+console.log(oddsSmallerThan(7));
 /**
  * squareOrDouble(n):
  * - receives a number n
